@@ -1,0 +1,274 @@
+
+
+/* =====================================
+Left Menu Code 
+========================================= */
+.mainwrapper{
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    max-width: 100%;
+    float: left;
+  }
+  
+  .topmenuarea{
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    max-width: 84%;
+    float: left;
+    background-color: red;
+    transition: all 0.2 ease-in-out;
+    -webkit-transition: all 0.2 ease-in-out;
+    -moz-transition: all 0.2 ease-in-out;
+    -ms-transition: all 0.2 ease-in-out;
+    -o-transition: all 0.2 ease-in-out;
+  }
+  
+  .logomenu2::-webkit-scrollbar {
+    width:3px;
+  }
+  .logomenu2::-webkit-scrollbar-thumb {
+     background-color: #4A87E2;
+     margin-right: -10px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+  }
+  
+  .logomenu2{
+  
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    max-width: 16%;
+    float: left;
+    background-color: inherit;
+    height: 100vh;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    position: fixed;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    -webkit-scrollbar-width: thin;
+  }
+  
+  
+   .logoarea {
+    background-color: #246585;
+    padding: 7px 0px 7px 22px;
+  }
+  
+  .leftmenu{
+     background-color: #0076A7;
+     min-height: 100vh;
+  }
+  
+  .navbar ul{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     flex-direction: row;
+  }
+
+  .navbar ul li {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    list-style: none;
+    padding: 12px 10px  10px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+  
+  .navbar ul li:hover{
+    background-color: #0085B4;
+  
+  }
+  
+  .navbar ul li:hover span.menuimg2::after {
+   color: #FCB32F;
+  
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+    color:#EFFFF5;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400px;
+    width: 100%;
+  }
+  
+  span.menuimg img {
+    padding-right: 10px;
+  }
+  
+  span.angle .icon {
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 300px;
+    padding-top: 5px;
+  }
+  
+  #nested1, #nested2, #nested3, #nested4{
+  display: none;
+  }
+  #allnested1{
+  padding-left: 40px;
+  width: 100%;
+  }
+  
+  #nested5, #nested6{
+  display: none;
+  }
+  
+  /* ========================= Top scroll area Start ======================= */
+  label #sidebar_btn{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    background-color:#0098BF;
+    top: 30px;
+    left: 30px;
+    width: 15px;
+    height: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition-property: color;
+  }
+  
+  label #sidebar_btn:hover{
+    color: #19B3D3;
+  }
+  
+  #sidebar_btn:before{
+    content:' ';
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    background-color:#0098BF;
+    top: -8px;
+    left: 0px;
+    width: 8px;
+    height: 5px;
+  }
+  #sidebar_btn:after{
+    content:' ';
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    background-color:#0098BF;
+    top: 8px;
+    left: 0px;
+    width: 22px;
+    height: 5px;
+  }
+  .leftmenuarea{
+    transition: ease 0.5s;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+  }
+  
+  
+  #check:checked ~ .leftmenuarea{
+    margin-left:-10.5%;
+    transition: ease 0.5s;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+  }
+  
+  #check:checked ~ .leftmenuarea span.menutext{
+    display: none;
+  }
+  
+  #check:checked ~ .leftmenuarea span.menuimg img{
+    margin-left: 200px;
+  }
+  
+  #check:checked ~ .leftmenuarea .menuimg2 {
+    position: relative;
+  }
+  #check:checked ~ .leftmenuarea span.menuimg2::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: 3px;
+    left: 195px;
+  
+  }
+  
+  #check:checked ~ .leftmenuarea span.menuimg3::after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 5px;
+    background: #00FFFF;
+    top: 3px;
+    left: 195px;
+    line-height: 10px;
+  }
+  #check:checked ~ .leftmenuarea .menuimg3{
+    position: relative;
+  }
+  
+  
+  #check:checked ~ .leftmenuarea .logoarea img {
+    margin-left: 175px;
+    width: 70px;
+    text-align: center;
+  }
+  
+  #check:checked ~ .leftmenuarea .logoarea { 
+    text-align: center;
+    padding: 15px 35px;
+  }
+  
+  #check:checked ~ .headerarea { 
+    margin-left:5.5%;
+    float: left;
+      width: calc(100% - 5.5%);
+  }
+  
+  #check:checked ~.label #sidebar_btn { 
+    left: 115px;
+  }
+  
+  #check:checked ~ #sidebar_btn:before { 
+    left:115px;
+  }
+  
+  #check:checked ~ #sidebar_btn:after { 
+    left: 115px;
+  
+  }
+  #check:checked ~ .maincontent { 
+    margin-left:5.5%;
+    float: left;
+    width: calc(100% - 5.5%);
+  
+  }
+  
+  #check{
+    display: none;
+  }
+  
+  /* ========================= Top scroll area End ======================= */
+  

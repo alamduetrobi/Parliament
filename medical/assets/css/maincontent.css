@@ -1,0 +1,311 @@
+
+span.menuimg2::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: 3px;
+    left: -15px;
+    line-height: 10px;
+  }
+  .menuimg2{
+    position: relative;
+  }
+  
+  span.menuimg3::after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 5px;
+    background: #00FFFF;
+    top: 3px;
+    left: -18px;
+    line-height: 10px;
+  }
+  .menuimg3{
+    position: relative;
+  }
+  
+  
+  /* ================ Top Header area ======================  */
+  
+  header {
+    cursor: pointer;
+  }
+  
+  .headerarea {
+    position: relative;
+    height: 62px;
+    margin-left:16%;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+    width: calc(100% - 16%);
+    float: left;
+  
+  }
+  
+  .headerarea .header_right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .header_right .single_item {
+    padding: 20px;
+  }
+  
+  .headerleft {
+    display: flex;
+    float: left;
+    width: 30%;
+  }
+  
+  select#inputGroupSelect01 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: none;
+    background: transparent;
+    width: 100%;
+  
+  }
+  
+  select#inputGroupSelect01:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .details a{
+    position: relative;
+    cursor: pointer;
+  }
+  
+  span.plusimg img {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .dropdown-item h6{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .dropdown-item p{
+    font-size:11px;
+    color: #B9B9B9;
+  }
+  
+  ul.dropdown-menu.show li {
+    width: 310px;
+    margin-bottom: 20px;
+  }
+  ul.dropdown-menu.show li a{
+    padding: 10px 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  
+  ul.dropdown-menu.show li:hover  a{
+    background-color: #E0F8F7;
+   
+  }
+  ul.dropdown-menu.show li a.active {
+    background-color: #FFEFEF;
+   
+  }
+  
+  .dropdown-menu{
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate(0px, 42px) !important;
+    -webkit-transform: translate(0px, 42px) !important;
+    -moz-transform: translate(0px, 42px) !important;
+    -ms-transform: translate(0px, 42px) !important;
+    -o-transform: translate(0px, 42px) !important;
+    z-index: 999 !important;
+  }
+  
+  .designation a {
+    text-decoration: none;
+    position: relative;
+  }
+  span.maintitle {
+    color: #606FD1;
+    font-size: 16px;
+    margin-top: -3px;
+    float: left;
+  }
+  
+  span.manager {
+    margin-top: 15px;
+    /* float: left; */
+    position: absolute;
+    right: 40px;
+    font-size: 12px;
+    color: #727272;
+  }
+  
+  img.personimage {
+    margin-left: 10px;
+  }
+  
+  .maincontent{
+    background:#fff;
+    min-height: 100vh;
+    margin-left: 16%;
+  
+    transition: ease 0.5s;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    width: calc(100% - 16%);
+    float: left;
+  }
+  
+  /*======================== Top Header  Switcher ===================== */
+  
+  .onoffswitch {
+    position: relative; 
+    width: 90px;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+  }
+  .onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #22CCC1;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+  }
+  .onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-weight: normal;
+    box-sizing: border-box;
+  }
+  .onoffswitch-inner:before {
+    content: "বাংলা";
+    padding-left: 10px;
+     color: #22CCC1;
+     font-weight: 700;
+  }
+  .onoffswitch-inner:after {
+    content: "Eng";
+    padding-right: 10px;
+    color: #22CCC1;
+    text-align: right;
+  }
+  .onoffswitch-switch {
+    display: block;
+    width: 30px;
+    margin: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 56px;
+    border: 2px solid #E0F8F7;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+    height: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+  }
+  
+  
+  /* ========================= Body top Title ======================= */
+  
+  .topmaintitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px 5px;
+    width: 100%;
+  }
+  
+  .topmaintitle img{
+    margin: 0px 20px;
+  }
+  
+  .topmaintitle h3 {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 7px;
+  }
+  
+  .drapoitmenttitle h4 {
+    color: #0098BF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .drappoitmentform {
+    text-align: right;
+  }
+  .drappoiment {
+    padding: 20px;
+  }
+  
+  textarea.commentbox {
+    width: 100%;
+  }
+  
+  .btn-primarybatil{
+    background-color: #FF6A6A;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  
+  
+  .btn-primarysubmit{
+    background-color: #4A87E2;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  
+  
+  .mb-3.row {
+    margin-bottom: 20px;
+  }
+  
+  .form-height{
+    height: 45px;
+  }

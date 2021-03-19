@@ -262,11 +262,12 @@ span.menuimg2::after {
   }
   
   .topmaintitle h3 {
-    color: #242424;
+    color: #0098BF;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 7px;
-  }
+    /* font-weight: bold; */
+}
   
   .drapoitmenttitle h4 {
     color: #0098BF;
@@ -329,3 +330,13 @@ span.menuimg2::after {
 
 
   /* ======================== Form Border Design file =========================== */
+
+  table.lablist tbody tr td input[type=text] {
+    width: 100%;
+}
+
+/* ===================================== Apontment search form ==================== */
+
+.searcharrow{
+  position: relative;
+}

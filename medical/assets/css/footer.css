@@ -1,0 +1,22 @@
+.footerarea {
+    flex: 0 0 100%;
+    height: 40px;
+    text-align: right;
+    margin-top: 60px;
+    padding-right: 25px;
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+}
+
+.footerarea p {
+    font-size: 16px;
+    font-family: nikosh;
+    font-weight: normal;
+}
+
+span.revefooter {
+    color: #1473E6;
+    font-size: 20px;
+    font-family: nikosh;
+}

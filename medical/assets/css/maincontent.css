@@ -147,16 +147,19 @@ span.menuimg2::after {
     font-size: 16px;
     margin-top: -3px;
     float: left;
-  }
+    font-size: 18px;
+    font-family: Nikosh;
+}
   
-  span.manager {
-    margin-top: 15px;
-    /* float: left; */
-    position: absolute;
-    right: 40px;
-    font-size: 12px;
-    color: #727272;
-  }
+span.manager {
+  margin-top: 15px;
+  /* float: left; */
+  position: absolute;
+  right: 40px;
+  font-size: 16px;
+  color: #727272;
+  font-family: Nikosh;
+}
   
   img.personimage {
     margin-left: 10px;
@@ -255,32 +258,93 @@ span.menuimg2::after {
     flex-wrap: wrap;
     padding: 20px 0px 5px;
     width: 100%;
+  }  
+  .topmaintitleeng {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px 5px;
+    width: 100%;
   }
   
+  .topmaintitleeng img{
+    margin: 0px 20px;
+  }
+    
   .topmaintitle img{
     margin: 0px 20px;
   }
   
   .topmaintitle h3 {
     color: #0098BF;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Nikosh;
     margin-top: 7px;
     /* font-weight: bold; */
+}  
+.topmaintitleeng h3 {
+  color: #0098BF;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  margin-top: 7px;
+  /* font-weight: bold; */
 }
   
-  .drapoitmenttitle h4 {
-    color: #0098BF;
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    margin-top: -33px;
-    width: fit-content;
-    /* z-index: 999; */
-    background-color: #fff;
-    width: max-content;
-    /* margin-left: 17px; */
-    padding: 0px 15px;
+.drapoitmenttitle h4 {
+  color: #0098BF;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: -33px;
+  width: fit-content;
+  /* z-index: 999; */
+  background-color: #fff;
+  width: max-content;
+  /* margin-left: 17px; */
+  padding: 0px 15px;
+  font-family: nikosh;
+}  
+
+.drapoitmenttitleeng h4 {
+  color: #0098BF;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: -33px;
+  width: fit-content;
+  /* z-index: 999; */
+  background-color: #fff;
+  width: max-content;
+  /* margin-left: 17px; */
+  padding: 0px 15px;
+  font-family: 'Lato', sans-serif;
+}
+.botomtitle h4 {
+  color: #0098BF;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: fit-content;
+  /* z-index: 999; */
+  background-color: #fff;
+  width: max-content;
+  /* margin-left: 17px; */
+  padding: 0px 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.formtext {
+  font-size: 18px;
+  font-family: Nikosh;
+  font-weight: normal;
+}
+  
+.formtexteng {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
 }
   
   .drappoitmentform {
@@ -294,11 +358,15 @@ span.menuimg2::after {
     width: 100%;
   }
   
-  .btn-primarybatil{
+
+
+  .btn-primarybatil {
     background-color: #FF6A6A;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     padding: 5px 20px;
+    margin-right: 10px;
+    font-family: Nikosh;
   }
   
   
@@ -307,6 +375,37 @@ span.menuimg2::after {
     font-size: 18px;
     color: #fff;
     padding: 5px 20px;
+    margin-right: 10px;
+    font-family: Nikosh;
+  }  
+  
+  .addsubmit {
+    background-color: #1DB4C5;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+  .btn-primarybatileng {
+    background-color: #FF6A6A;
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 25px;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+}
+  
+  
+  .btn-primarysubmiteng{
+    background-color: #4A87E2;
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 25px;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
   }
   
   
@@ -321,7 +420,7 @@ span.menuimg2::after {
 
   /* ======================== Form Border Design file =========================== */
   .onlyborder {
-    display: flex;
+    /* display: flex; */
     width: 100%;
     border: 1px solid #0098BF;
     margin: 20px;
@@ -340,3 +439,188 @@ span.menuimg2::after {
 .searcharrow{
   position: relative;
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 0px;
+  margin-right:-10px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 0px;
+  margin-right:-10px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+
+.btn-primarybatil:hover {
+  color: #ddd;
+  text-decoration: none;
+  border: none;
+  /* transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none; */
+}
+.btn-primarysubmit:hover {
+  color: #ddd;
+  text-decoration: none;
+  border: none;
+  /* transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none; */
+}
+
+.allsubmit {
+  text-align: right!important;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+/* =========================== lablisttable Page ========================== */
+
+table.lablisttable{
+  border: 1px solid #BBD7D9;
+}
+
+
+table.lablisttable thead {
+  background-color: #F1F9FB;
+  color: #6E6E6E;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+table.lablisttable tbody tr td input {
+  width: 100%;
+}
+table.lablisttable thead tr th {
+  border-right: 1px solid #BBD7D9;
+  text-align: center;
+}
+table.lablisttable thead tr th:last-child {
+  border-right: none;
+}
+
+table.lablisttable tbody tr td input {
+  width: 100%;
+  border: 1px solid #ededed !important;
+}
+
+.medicalcheck[type="checkbox"]{
+border: 1px solid #ededed !important;
+width: 17px;
+height: 17px;
+text-align: right;
+}
+
+
+td.medicalcheck1 {
+  text-align: center;
+}
+
+.addplus {
+  float: left;
+  display: block;
+  padding-right: 13px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.totaltrash .fa-trash {
+  font-size: 12px;
+  color: #FF6A6A;
+  /* text-align: center; */
+  /* line-height: 5px; */
+}
+.totaltrash {
+  background-color: #EBEBEB;
+  padding: 3px 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}
+
+
+/* =========================== lablisttable Page ========================== */
+/* =========================== Custom file Upload ========================== */
+
+.fileUploadInput {
+  display: grid;
+  grid-gap: 10px;
+  position: relative;
+  z-index: 1; }
+  
+  .fileUploadInput label {
+    display: flex;
+    align-items: center;
+    color: setColor(primary, 0.5);
+    background: setColor(white);
+    transition: .4s ease;
+    font-family: arial, sans-serif;
+    font-size: .75em;
+    font-weight: regular; }
+    
+    .fileUploadInput input {
+      position: relative;
+      z-index: 1;
+      padding: 0 gap(m);
+      width: 72%;
+      height: 50px;
+      border: 1px solid #EBEDF3;
+      border-radius: 3px;
+      font-family: arial, sans-serif;
+      font-size: 1rem;
+      font-weight: regular;
+  }
+
+
+
+    .fileUploadInput input[type="file"] {
+      padding: 0 gap(m); }
+      .fileUploadInput input[type="file"]::-webkit-file-upload-button {
+        visibility: hidden;
+        margin-left: 10px;
+        padding: 0;
+        height: 50px;
+        width: 0; }
+        
+      .fileUploadInput button {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 25%;
+        height: 50px;
+        line-height: 0;
+        user-select: none;
+        color: #3699FF;
+        background-color: #EBEDF3;
+        border-radius:5px;
+        font-family: arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -ms-border-radius:5px;
+        -o-border-radius:5px;
+}
+
+    .fileUploadInput button svg {
+      width: auto;
+      height: 50%; }
+
+
+
+
+

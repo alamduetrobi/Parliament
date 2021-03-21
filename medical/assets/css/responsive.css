@@ -25,6 +25,18 @@
 
 }
 
+@media  screen and (max-width:1537px) {
+    #check:checked ~ .leftmenuarea .logoarea img {
+        margin-left:130px;
+    }
+
+    #check:checked ~ .leftmenuarea span.menuimg img {
+        margin-left: 130px;
+    }
+
+}
+
+
 @media  screen and (max-width:1366px) {
     #check:checked ~ .leftmenuarea .logoarea img {
         margin-left: 70%;
@@ -296,14 +308,21 @@ span.menuimg img {
         padding-left: 20px !important;
     }
 
+    .label #sidebar_btn {
+        display: none;
+    }
+
 }
+
+
+
 @media  screen and (max-width:558px) {
 
     label #sidebar_btn {
         display: none;
     }
     .header_right .single_item {
-        padding: 14px 10px;
+        padding: 14px 6px;
     }
     .headerleft {
         width: 0%;
@@ -320,5 +339,18 @@ span.menuimg img {
         text-align: left;
     }
 
+    .topmaintitleeng h3 {
+        font-size: 20px;
+    }
+
+    .allsubmit {
+        display: inline-block;
+        margin-top: 30px;
+        float: right;
+    }
+
+
+
 }
+
 

@@ -96,14 +96,17 @@ Left Menu Code
   
   }
   
-  .navbar ul li a{
+  .navbar ul li a {
     text-decoration: none;
-    color:#EFFFF5;
+    color: #EFFFF5;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 400px;
     width: 100%;
-  }
+    font-family: Nikosh;
+    display: flex;
+    flex-direction: row;
+}
   
   span.menuimg img {
     padding-right: 10px;
@@ -117,6 +120,14 @@ Left Menu Code
     font-weight: 300px;
     padding-top: 5px;
   }
+
+  span.menutext {
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    font-family: Nikosh;
+}
   
   #nested1, #nested2, #nested3, #nested4{
   display: none;
